@@ -60,3 +60,5 @@ encoded_imgs = encoder.predict(x_test)
 plt.scatter(encoded_imgs[:, 0], encoded_imgs[:, 1], c=y_test, s=3)
 plt.colorbar()
 plt.show()
+
+#到此一游～
